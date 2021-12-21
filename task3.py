@@ -1,4 +1,4 @@
-n = int(input("Введите число n: "))
+n = int(input("Введите положительное число n: "))
 temp = str(n)
 p1 = temp + temp
 p2 = temp + temp + temp
