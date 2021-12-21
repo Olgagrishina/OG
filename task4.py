@@ -1,18 +1,14 @@
+
 # task 4
-num_init = int(input('Введите целое положительное число - '))
-max =num_init % 10
-numb = num_init
-
-while numb > 0:
-    digit = numb % 10
-    if digit > max:
-        max = digit
-
-    if digit == 9
-        break
-    numb // = 10
-    print (numb)
-
-
-print ("Наибольшая цифра в числе {num_init} равна {max}")
-
+rent  = float (input ("Введите выручку - "))
+cost = float (input("Введите издержку - "))
+profit = rent - cost
+if profit > 0:
+    print (f"Прибыль компании {profit} !")
+    print (f"Рентабельность выручки - {profit / rent: 3f}")
+    personal = int(input ("Количество сотрудников в компании: - "))
+    print (f"Прибыль на одного сотрудника  - { profit/ personal: 2f}")
+elif profit <0:
+    print (f"Убыток компании - { - profit}")
+else:
+    print("Покрываете убытки")
