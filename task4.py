@@ -1,17 +1,18 @@
 # task 4
+num_init = int(input('Введите целое положительное число - '))
+max =num_init % 10
+numb = num_init
 
-numbers = []
+while numb > 0:
+    digit = numb % 10
+    if digit > max:
+        max = digit
+
+    if digit == 9
+        break
+    numb // = 10
+    print (numb)
 
 
-for i in range(3):
-  number = float(input("Введите число #{}: ".format(i + 1)))
-  numbers.append(number)
+print ("Наибольшая цифра в числе {num_init} равна {max}")
 
-#  наибольшее является первым в списке.
-nch = numbers[0]
-# сравнение
-for number in numbers:
-    if number > mayor:
-        nch = number
-# результат
-print("Наибольшее число:", nch)
